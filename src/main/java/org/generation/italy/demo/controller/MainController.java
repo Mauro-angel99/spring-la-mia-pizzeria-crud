@@ -58,7 +58,7 @@ public class MainController {
 		return "pizza-create";
 	}
 	@PostMapping("/pizza/create")
-	public String storePizza(@Valid @ModelAttribute("book") Pizza pizza) {
+	public String storePizza(@Valid @ModelAttribute("pizza") Pizza pizza) {
 		
 		pizzaService.save(pizza);
 		
