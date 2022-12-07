@@ -22,7 +22,7 @@ public class PizzaService {
 		
 		return pizzaRepo.findAll();
 	}
-	public Optional<Pizza> findBookById(int id) {
+	public Optional<Pizza> findPizzaById(int id) {
 		
 		return pizzaRepo.findById(id);
 	}
